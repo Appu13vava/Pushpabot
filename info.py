@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'PUsHPAFILIMFAKTORY')
 API_ID = int(environ.get('API_ID', '15917107'))
 API_HASH = environ.get('API_HASH', '8197e7638d58c92ae2504adba7c62117')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5736646811:AAHXmO-XoV5llwCm4c4q3AFaH2mGi5wCRxI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5736646811:AAHd14wQdFUlJfRJWCJmghH_KXv-SwtyA4M")
 
 #Port
 PORT = environ.get("PORT", "8080")
