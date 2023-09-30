@@ -48,10 +48,4 @@ single_button_env = os.environ.get('SINGLE_BUTTON', 'True')
 
 
 SINGLE_BUTTON = is_enabled(single_button_env)
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544')            
-                  
-
-      
-     # Auto Delete For Group Message (Self Delete) #
-
-   # Custom Caption Under Button #
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544') 
