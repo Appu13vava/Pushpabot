@@ -48,4 +48,4 @@ single_button_env = os.environ.get('SINGLE_BUTTON', 'True')
 
 
 SINGLE_BUTTON = is_enabled(single_button_env)
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544') 
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544')) 
