@@ -12,3 +12,4 @@ pynewtonmath
 pytz
 aiohttp
 pip==23.2.1
+pymongo
