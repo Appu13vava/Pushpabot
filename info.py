@@ -55,7 +55,3 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544')
      # Auto Delete For Group Message (Self Delete) #
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/+OuAZLyysqzo4YWY1"
-
-   # Auto Delete For Bot Sending Files #
