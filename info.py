@@ -49,10 +49,6 @@ single_button_env = os.environ.get('SINGLE_BUTTON', 'True')
 
 SINGLE_BUTTON = is_enabled(single_button_env)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544')            
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Film Factory ™](https://t.me/+OuAZLyysqzo4YWY1)</b>⚡Name: {file_caption} 
-⚙️ <b>Size: </b><code>{file_size}</code>🔥  ↭ <b>Join Now [Film Factory ™](https://t.me/+9hpzSIMAO_YyYjU9)</b> ↭  🔥")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "⚡<b>File uploaded by [filim factory™](https://t.me/+OuAZLyysqzo4YWY1)</b>⚡
-Name: {file_caption} ⚙️ <b>Size: </b><code>{file_size}</code>🔥  ↭ <b>Join Now [filimfaktory™](https://t.me/+OuAZLyysqzo4YWY1)</b> ↭  🔥")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb: \n\n🏷 Title: {title}\n🌟 Rating : {rating}/10\n🎭 Genres: {genres}\n📆 Year: {year}\n⏰ Duration : {runtime}\n🎙️ Languages : {languages}\n🔖 Plot : {plot}\n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
