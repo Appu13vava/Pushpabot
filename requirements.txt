@@ -11,4 +11,4 @@ heroku3
 pynewtonmath
 pytz
 aiohttp
-pymongo==3.6
+pip==23.2.1
