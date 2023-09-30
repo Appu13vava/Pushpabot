@@ -107,10 +107,11 @@ async def next_page(bot, query):
         ]
 
     btn.insert(0,
-       ([
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/+9hpzSIMAO_YyYjU9')
+       [
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/+9hpzSIMAO_YyYjU9') /n
     InlineKeyboardButton(text="⚡new movies ⚡", url='https://t.me/+9hpzSIMAO_YyYjU9')
-          ])
+          ]
+              )
 
     if 0 < offset <= 10:
         off_set = 0
