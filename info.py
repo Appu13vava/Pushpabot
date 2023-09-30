@@ -53,14 +53,6 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '--1001930977544')
 
       
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 100))
-SELF_DELETE = environ.get('SELF_DELETE', True)
-if SELF_DELETE == "True":
-    SELF_DELETE = True
-
-    # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/+9hpzSIMAO_YyYjU9"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
