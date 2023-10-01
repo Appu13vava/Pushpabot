@@ -376,9 +376,3 @@ def humanbytes(size):
         size /= power
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
-
-    try:
-       
-    except Exception as e:
-        logger.error(e)
-        return f'https://api.shareus.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
